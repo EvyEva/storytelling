@@ -59,32 +59,40 @@ gsap
       duration: 7,
     },
     0
+  )
+  .to(
+    ".thunder_storm",
+    {
+      marginTop: "-=40%",
+      duration: 7,
+    },
+    0
   );
 
 gsap.from(".thunder_lightning_1", {
   scrollTrigger: {
     trigger: ".thunder_lightning_1",
-    start: "100px center",
-    end: "150px center",
+    start: "top top",
+    end: "bottom center",
     scrub: 1,
     markers: true,
   },
   opacity: 0,
   right: "100vw",
-  top: "-100vw",
+  marginTop: "-=10%",
 });
 
 gsap.from(".thunder_lightning_2", {
   scrollTrigger: {
     trigger: ".thunder_lightning_2",
-    start: "200px center",
-    end: "250px center",
+    start: "top top",
+    end: "bottom center",
     scrub: 1,
     markers: true,
   },
   opacity: 0,
   left: "100vw",
-  top: "-100vw",
+  marginTop: "-=40%",
 });
 
 gsap.to(".family_page_slider-mask", {
