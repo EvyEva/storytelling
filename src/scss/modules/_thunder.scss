@@ -4,15 +4,44 @@
 }
 
 .thunder_parallax img {
-  position: relative;
+  //   position: relative;
 }
 
 .thunder_parallax {
-  overflow: hidden;
+  //   overflow: hidden;
   border: 5px red solid;
-  height: 100vh;
+  //   height: 100vh;
   width: 100%;
+  position: relative;
 }
+
+// .thunder_parallax_1 {
+//   //   position: absolute;
+// }
+
+.thunder_parallax_2 {
+  margin-top: -50vw;
+}
+
+.thunder_parallax_3 {
+  margin-top: -13vw;
+}
+
+.thunder_parallax_4 {
+  margin-top: -25vw;
+}
+
+.thunder_parallax_5 {
+  margin-top: -6vw;
+}
+
+// .thunder_parallax_2,
+// .thunder_parallax_3,
+// .thunder_parallax_4,
+// .thunder_parallax_5 {
+//   //   position: absolute;
+//   //   top: 90vh;
+// }
 
 .thunder_storm {
   position: relative;
@@ -27,20 +56,41 @@
 
 .thunder_lightning_1 {
   position: relative;
-  top: -1450px;
+  margin-top: -3000px;
 }
 
 .thunder_lightning_2 {
   position: relative;
-  top: -1550px;
+  top: -1250px;
 }
 
 .thunder_lightning_image_1 {
-  width: 744px;
-  height: 532px;
+  width: 40vw;
+  height: auto;
 }
 
 .thunder_lightning_image_2 {
-  width: 744px;
-  height: 532px;
+  width: 40vw;
+  height: auto;
+}
+
+.thunder_family {
+  position: relative;
+}
+
+.thunder_baby {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.thunder_baby_sleeping {
+  width: 50%;
+  height: 50%;
+}
+
+.thunder_baby_awake {
+  width: 50%;
+  height: 50%;
 }
