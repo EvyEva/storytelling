@@ -95,9 +95,9 @@ gsap.from(".thunder_lightning_2", {
   marginTop: "-=40%",
 });
 
-gsap.to(".family_page_slider-mask", {
+gsap.to(".family_page_slider_mask", {
   scrollTrigger: {
-    trigger: ".family_page_slider-track",
+    trigger: ".family_page_slider_track",
     // start c'est le moment ou l'animation commence dans le site,
     // le premier top c'est par rapport à l'élément concerné,
     // le deuxieme c'est par rapport à la page

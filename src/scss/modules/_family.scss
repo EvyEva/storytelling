@@ -1,8 +1,10 @@
-.family_page_slider-mask {
-  display: flex;
+.family_page_slider_mask {
+  display: inline-flex;
   flex-direction: row;
+  gap: 159px;
+  align-items: center;
 }
 
-.family_page_slider-track {
-  gap: 159px;
+.family_page_slider_track {
+  display: flex;
 }
