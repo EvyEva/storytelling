@@ -84,9 +84,11 @@
 .thunder_baby_sleeping {
   width: 50%;
   height: 50%;
+  display: block;
 }
 
 .thunder_baby_awake {
   width: 50%;
   height: 50%;
+  display: none;
 }
