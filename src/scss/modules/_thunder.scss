@@ -1,5 +1,6 @@
 .thunder_page {
   overflow: hidden;
+  margin-top: 111px;
 }
 
 .thunder_parallax img {
@@ -10,7 +11,36 @@
   overflow: hidden;
   border: 5px red solid;
   height: 100vh;
+  width: 100%;
 }
 
 .thunder_storm {
+  position: relative;
+  top: -400px;
+}
+
+.thunder_lightning {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thunder_lightning_1 {
+  position: relative;
+  top: -1450px;
+}
+
+.thunder_lightning_2 {
+  position: relative;
+  top: -1550px;
+}
+
+.thunder_lightning_image_1 {
+  width: 744px;
+  height: 532px;
+}
+
+.thunder_lightning_image_2 {
+  width: 744px;
+  height: 532px;
 }

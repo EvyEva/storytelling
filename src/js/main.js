@@ -11,9 +11,9 @@ gsap
       start: "top top",
       // le chiffre de end indiquera la durée du parallax, tout devra se caler dessus
       end: "3000px bottom",
-      scrub: 0.3, //le chiffre donne un effet plus lisse à l'animation
+      scrub: true, //le chiffre donne un effet plus lisse à l'animation
       pin: true,
-      markers: true,
+      //   markers: true,
       ease: "linear", //je sais pas si cette ligne est utile
     },
   })
@@ -55,3 +55,16 @@ gsap
     },
     0
   );
+
+// gsap.from(".thunder_lightning_1", {
+//   scrollTrigger: {
+//     trigger: ".thunder_lightning_1",
+//     start: "1000px center",
+//     end: "1500px center",
+//     scrub: 1,
+//     markers: true,
+//   },
+//   opacity: 0,
+//   right: "100vw",
+//   top: "-100vw",
+// });
