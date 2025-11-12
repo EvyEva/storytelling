@@ -56,13 +56,12 @@
 
 .thunder_lightning_1 {
   position: relative;
-  margin-top: -200vw;
+  margin-top: -100%;
 }
 
 .thunder_lightning_2 {
   position: relative;
-  top: -1250px;
-  margin-top: 40vw;
+  margin-top: -80%;
 }
 
 .thunder_lightning_image_1 {
@@ -75,7 +74,14 @@
   height: auto;
 }
 
+.thunder_family {
+  position: relative;
+  margin-top: -20%;
+}
+
 .thunder_baby {
+  margin-top: 20%;
+  margin-bottom: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,4 +97,24 @@
   width: 50%;
   height: 50%;
   display: none;
+}
+
+.thunder_baby {
+  width: 50%;
+  height: 50%;
+  display: block;
+}
+
+.thunder_baby {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw; /* Specify the width */
+  height: 36vw; /* Specify the height */
+  background-image: url("../images/1_bebe_1.png");
+  background-size: cover; /* Cover the entire area of the element */
+  transition: background-image 0.3s ease-in-out; /* Smooth transition */
+}
+
+.thunder_baby:hover {
+  background-image: url("../images/1_bebe_2.png"); /* Change on hover */
 }

@@ -69,47 +69,45 @@ gsap
     0
   );
 
-gsap.from(".thunder_lightning_1", {
-  scrollTrigger: {
-    trigger: ".thunder_lightning_1",
-    start: "top top",
-    end: "bottom center",
-    scrub: 1,
-    markers: true,
-  },
-  opacity: 0,
-  right: "100vw",
-  marginTop: "-=10%",
-});
+// gsap.from(".thunder_lightning_1", {
+//   scrollTrigger: {
+//     trigger: ".thunder_lightning_1",
+//     start: "top bottom",
+//     end: "center center",
+//     scrub: 1,
+//     markers: true,
+//   },
+//   opacity: 0,
+//   right: "100vw",
+// });
 
-gsap.from(".thunder_lightning_2", {
-  scrollTrigger: {
-    trigger: ".thunder_lightning_2",
-    start: "top top",
-    end: "bottom center",
-    scrub: 1,
-    markers: true,
-  },
-  opacity: 0,
-  left: "100vw",
-  marginTop: "-=40%",
-});
+// gsap.from(".thunder_lightning_2", {
+//   scrollTrigger: {
+//     trigger: ".thunder_lightning_2",
+//     start: "top bottom",
+//     end: "center center",
+//     scrub: 1,
+//     markers: true,
+//   },
+//   opacity: 0,
+//   left: "100vw",
+// });
 
-gsap.to(".family_page_slider_mask", {
+gsap.to(".family_page_slider_track", {
   scrollTrigger: {
-    trigger: ".family_page_slider_track",
+    trigger: ".family_page_slider_mask",
     // start c'est le moment ou l'animation commence dans le site,
     // le premier top c'est par rapport à l'élément concerné,
     // le deuxieme c'est par rapport à la page
     start: "top top",
     // l'emplacement de end change la vitesse du scroll horizontal,
     // plus le chiffre à % est grand, plus il sera lent
-    end: "+=300%",
+    end: "+=400%",
     pin: true,
     scrub: true,
-    markers: true,
+    // markers: true,
   },
   // x définit jusqu'ou la section va a droite, on peut le calculer (mais j'ai pas compris comment) ou faire à taton, bonne chance !
-  x: "-1000%",
+  x: "-750%",
   ease: "sine.inOut",
 });
