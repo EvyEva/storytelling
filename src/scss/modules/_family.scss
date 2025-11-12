@@ -9,30 +9,51 @@
   border: 5px solid red;
 }
 
-.family_page_image {
-}
-
 .slide {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  // width: 80vw;
   flex-shrink: 0;
   padding-inline: 8vw;
   border: 5px solid green;
+}
+
+.family_page_double {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-shrink: 0;
+  border: 5px solid aqua;
 }
 
 .slide-1 {
   width: 80vw;
 }
 
-.image-1 {
-  // width: 120vw;
+.slide-2 {
+  width: 80vw;
 }
 
-.image-2 {
-  width: 120vw;
+.slide-3 {
+  width: 80vw;
+}
+
+.slide-4 {
+  width: 60vw;
+}
+
+.slide-5 {
+  width: 50vw;
+}
+
+.slide-6 {
+  width: 70vw;
+}
+
+.slide-7 {
+  width: 60vw;
 }
 
 // .image-3 {

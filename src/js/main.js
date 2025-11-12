@@ -73,7 +73,7 @@ gsap
 //   scrollTrigger: {
 //     trigger: ".thunder_lightning_1",
 //     start: "top bottom",
-//     end: "center center",
+//     end: "center top",
 //     scrub: 1,
 //     markers: true,
 //   },
@@ -85,7 +85,7 @@ gsap
 //   scrollTrigger: {
 //     trigger: ".thunder_lightning_2",
 //     start: "top bottom",
-//     end: "center center",
+//     end: "center top",
 //     scrub: 1,
 //     markers: true,
 //   },
@@ -111,3 +111,30 @@ gsap.to(".family_page_slider_track", {
   x: "-100%",
   ease: "sine.inOut",
 });
+
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".falling_page",
+      start: "top top",
+      end: "120% bottom",
+      scrub: 0.3,
+      markers: true,
+      ease: "linear",
+    },
+  })
+  .to(
+    ".falling_sabre",
+    {
+      top: "25%",
+    },
+    0
+  )
+
+  .to(
+    ".falling_sabre",
+    {
+      top: "100%",
+    },
+    0
+  );
