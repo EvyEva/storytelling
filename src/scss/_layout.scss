@@ -4,9 +4,33 @@ header {
 
 footer {
   display: flex;
-  width: 1439.945px;
   transform: rotate(0.079deg);
   padding: 16px 46px;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
+  z-index: 1;
+  margin-top: 30%;
+}
+
+.footer_text {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+  flex-shrink: 0;
+}
+
+.footer_sabre {
+  right: 0px;
+  width: 20%;
+  z-index: 0;
+}
+
+.footer_logo {
+  width: 10%;
+}
+
+.footer_background {
+  position: absolute;
+  overflow: hidden;
 }
