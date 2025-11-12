@@ -108,6 +108,6 @@ gsap.to(".family_page_slider_track", {
     // markers: true,
   },
   // x définit jusqu'ou la section va a droite, on peut le calculer (mais j'ai pas compris comment) ou faire à taton, bonne chance !
-  x: "-750%",
+  x: "-100%",
   ease: "sine.inOut",
 });

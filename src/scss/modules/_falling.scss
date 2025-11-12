@@ -1,4 +1,5 @@
 .falling_page {
+  margin-top: 30vw;
   border: 5px dashed grey;
   display: flex;
   flex-direction: column;
@@ -17,4 +18,73 @@
     min-height: 15%;
     z-index: 100;
   }
+}
+
+.falling_frame-2 {
+  padding-top: 20vw;
+}
+
+.falling_frame-3 {
+  padding-top: 5vw;
+  width: 50vw;
+}
+
+.falling_frame-4 {
+  padding-top: 10vw;
+  width: 80vw;
+}
+
+.falling_frame-5 {
+  padding-top: 5vw;
+  width: 40vw;
+}
+
+.falling_frame-6 {
+  width: 20vw;
+}
+
+.falling_frame-7 {
+  padding-top: 10vw;
+  width: 20vw;
+}
+
+.falling_frame-8 {
+  width: 90vw;
+}
+
+.falling_frame-9 {
+  padding-top: 5vw;
+  width: 70vw;
+}
+
+.falling_frame-10 {
+  width: 20vw;
+}
+
+.falling_frame-11 {
+  padding-top: 5vw;
+  width: 40vw;
+}
+
+.falling_frame-12 {
+  padding-top: 5vw;
+  width: 40vw;
+}
+
+.falling_frame-13 {
+  padding-top: 10vw;
+  width: 20vw;
+}
+
+.falling_frame-14 {
+  padding-top: 10vw;
+  width: 90vw;
+}
+
+.falling_frame-15 {
+  width: 90vw;
+}
+
+.falling_frame-16 {
+  width: 90vw;
 }

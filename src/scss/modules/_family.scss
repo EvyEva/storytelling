@@ -10,49 +10,59 @@
 }
 
 .family_page_image {
+}
+
+.slide {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid blue;
-  padding-inline: 20vw;
+  height: 100%;
+  // width: 80vw;
+  flex-shrink: 0;
+  padding-inline: 8vw;
+  border: 5px solid green;
+}
+
+.slide-1 {
+  width: 80vw;
 }
 
 .image-1 {
-  width: 120vw;
+  // width: 120vw;
 }
 
 .image-2 {
   width: 120vw;
 }
 
-.image-3 {
-  width: 120vw;
-}
-
-.image-4 {
-  width: 120vw;
-}
-
-.image-5 {
-  width: 96vw;
-}
-
-.image-6 {
-  width: 131vw;
-}
-
-.image-7 {
-  width: 115vw;
-}
-
-// .family_page_image image-1,
-// .family_page_image image-2,
-// .family_page_image image-3,
-// .family_page_image image-4 {
-//   width: 50%;
-//   height: 50%;
+// .image-3 {
+//   width: 120vw;
 // }
 
-// .family_page_double{
-
+// .image-4 {
+//   width: 120vw;
 // }
+
+// .image-5 {
+//   width: 96vw;
+// }
+
+// .image-6 {
+//   width: 131vw;
+// }
+
+// .image-7 {
+//   width: 115vw;
+// }
+
+// // .family_page_image image-1,
+// // .family_page_image image-2,
+// // .family_page_image image-3,
+// // .family_page_image image-4 {
+// //   width: 50%;
+// //   height: 50%;
+// // }
+
+// // .family_page_double{
+
+// // }

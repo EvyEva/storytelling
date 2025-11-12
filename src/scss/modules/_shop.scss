@@ -17,3 +17,13 @@
   font-size: 20px;
   border: none;
 }
+
+.shop_button:hover {
+  border-radius: 9px;
+  background: var(
+    --Environment-gradient,
+    linear-gradient(272deg, #bc63da 0%, #dd533d 96.12%)
+  );
+  color: white;
+  transition: 0.3s ease-in-out;
+}

@@ -108,11 +108,11 @@
 .thunder_baby {
   margin-left: auto;
   margin-right: auto;
-  width: 80vw; /* Specify the width */
-  height: 36vw; /* Specify the height */
+  width: 80vw;
+  height: 36vw;
   background-image: url("../images/1_bebe_1.png");
-  background-size: cover; /* Cover the entire area of the element */
-  transition: background-image 0.3s ease-in-out; /* Smooth transition */
+  background-size: cover;
+  transition: background-image 0.2s ease-in-out;
 }
 
 .thunder_baby:hover {
