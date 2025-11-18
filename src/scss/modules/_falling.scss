@@ -17,7 +17,7 @@
   }
 
   .falling_sabre {
-    height: 30%;
+    height: 50%;
     z-index: 3;
     position: fixed;
     top: 0;
@@ -35,7 +35,7 @@
 }
 
 .falling_frame-2 {
-  padding-top: 20vw;
+  padding-top: 10vw;
 }
 
 .falling_frame-3 {
@@ -50,15 +50,11 @@
 
 .falling_frame-5 {
   padding-top: 5vw;
-  width: 40vw;
-}
-
-.falling_frame-6 {
-  width: 20vw;
+  width: 50vw;
 }
 
 .falling_frame-7 {
-  padding-top: 10vw;
+  padding-top: 3vw;
   width: 90vw;
 }
 
@@ -79,11 +75,13 @@
 .falling_frame-11 {
   padding-top: 5vw;
   width: 40vw;
+  margin-right: 30vw;
 }
 
 .falling_frame-12 {
   padding-top: 5vw;
   width: 40vw;
+  margin-left: 30vw;
 }
 
 .falling_frame-13 {
@@ -97,9 +95,11 @@
 }
 
 .falling_frame-15 {
+  padding-top: 3vw;
   width: 90vw;
 }
 
 .falling_frame-16 {
+  padding-top: 3vw;
   width: 90vw;
 }

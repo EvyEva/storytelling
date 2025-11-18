@@ -22,20 +22,12 @@ document.addEventListener("DOMContentLoaded", function () {
       scrollTrigger: {
         trigger: ".thunder_parallax",
         start: "top top",
-        // le chiffre de end indiquera la durée du parallax, tout devra se caler dessus
         end: "bottom bottom",
-        scrub: true, //le chiffre donne un effet plus lisse à l'animation
-        //   pin: true,
-        markers: true,
+        scrub: true,
+        // markers: true,
         id: "Parallax",
         ease: "linear",
-        onUpdate: (self) => {
-          // `self` contient des informations sur le ScrollTrigger
-          // ScrollTrigger.refresh();
-          // console.log("Refresh");
-          // console.log("Progression :", self.progress);
-          // Vous pouvez aussi accéder à d'autres valeurs comme self.direction
-        },
+        onUpdate: (self) => {},
       },
     })
     .to(
@@ -126,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
       end: "+=400%",
       pin: true,
       scrub: true,
-      markers: true,
+      // markers: true,
       id: "scroll",
     },
     x: "-100%",
@@ -142,30 +134,15 @@ document.addEventListener("DOMContentLoaded", function () {
         start: "top center",
         end: "bottom bottom",
         scrub: true,
-        markers: true,
+        // markers: true,
         id: "falling",
       },
     })
 
-    // .from(
-    //   ".falling_sabre",
-    //   {
-    //     opacity: 0,
-    //   }
-
-    // )
-    // .to(
-    //   ".falling_sabre",
-    //   {
-    //     top: "25%",
-    //   }
-
-    // )
-
     .fromTo(
       ".falling_sabre",
       {
-        top: "-30%",
+        top: "-50%",
         ease: "none",
       },
       {
