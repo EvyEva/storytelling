@@ -29,11 +29,13 @@
 
 .shop {
   margin-top: 50%;
+  background-image: url("../images/footer_background.png");
+  background-size: cover;
 }
 
 .shop_text_whole {
   display: flex;
-  width: 682px;
+  width: 100vw;
   flex-direction: column;
   align-items: flex-start;
   gap: 66px;
@@ -41,10 +43,10 @@
 
 .shop_text {
   display: flex;
-  width: 682px;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
+  font-size: 24px;
 }
 
 .shop_text_description {
@@ -94,8 +96,6 @@
 
 .shop_buy {
   display: flex;
-  width: 246px;
-  height: 78px;
   padding: 20px 35px;
   justify-content: center;
   align-items: center;
@@ -105,11 +105,14 @@
   background: rgba(255, 255, 255, 0.66);
   backdrop-filter: blur(15.050000190734863px);
   font-size: 29px;
+  font-style: normal;
   font-weight: 500;
+  line-height: normal;
 }
 
 .shop_cover {
-  width: 40%;
+  width: 50%;
+  height: auto;
 }
 
 .shop_space {
