@@ -93,29 +93,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
   ///Animations éclairs
 
-  // // gsap.from(".thunder_lightning_1", {
-  // //   scrollTrigger: {
-  // //     trigger: ".thunder_lightning_1",
-  // //     start: "top bottom",
-  // //     end: "center top",
-  // //     scrub: 1,
-  // //     markers: true,
-  // //   },
-  // //   opacity: 0,
-  // //   right: "100vw",
-  // // });
+  // gsap.from(".thunder_lightning_1", {
+  //   scrollTrigger: {
+  //     trigger: ".thunder_lightning_1",
+  //     start: "center top",
+  //     end: "bottom top",
+  //     scrub: 1,
+  //     markers: true,
+  //     id: "droite",
+  //   },
+  //   right: "10vw",
+  // });
 
-  // // gsap.from(".thunder_lightning_2", {
-  // //   scrollTrigger: {
-  // //     trigger: ".thunder_lightning_2",
-  // //     start: "top bottom",
-  // //     end: "center top",
-  // //     scrub: 1,
-  // //     markers: true,
-  // //   },
-  // //   opacity: 0,
-  // //   left: "100vw",
-  // // });
+  // gsap.from(".thunder_lightning_2", {
+  //   scrollTrigger: {
+  //     trigger: ".thunder_lightning_2",
+  //     start: "bottom top",
+  //     end: "bottom top",
+  //     scrub: 1,
+  //     markers: true,
+  //     id: "gauche",
+  //   },
+  //   left: "10vw",
+  // });
 
   /// Scroll horizontal
 
