@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .querySelector(".shop_button")
     .addEventListener("click", function (e) {
       e.preventDefault();
-      gsap.to(window, { duration: 2, scrollTo: "#shop" });
+      gsap.to(window, { duration: 1, scrollTo: "#shop" });
     });
 
   gsap
