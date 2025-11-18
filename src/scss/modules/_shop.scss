@@ -105,9 +105,28 @@
   background: rgba(255, 255, 255, 0.66);
   backdrop-filter: blur(15.050000190734863px);
   font-size: 29px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  width: 250px;
+  transition: all 0.3s ease-out;
+}
+
+.shop_buy:hover {
+  border-radius: 9px;
+  background: linear-gradient(
+    293deg,
+    rgba(199, 179, 206, 0.66) 20.64%,
+    rgba(191, 205, 213, 0.66) 85.29%
+  );
+  backdrop-filter: blur(15.050000190734863px);
+  color: rgba(255, 255, 255, 0.79);
+  font-weight: 700;
+  border: nonlinear-gradient(
+      293deg,
+      rgba(199, 179, 206, 0.66) 20.64%,
+      rgba(191, 205, 213, 0.66) 85.29%
+    )
+    e;
+  width: 250px;
 }
 
 .shop_cover {
