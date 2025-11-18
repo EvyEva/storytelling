@@ -1,13 +1,22 @@
 import { gsap } from "gsap";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollToPlugin);
 
 /// Parllax
 
 // Début du code qui s'exécute au chargement
 document.addEventListener("DOMContentLoaded", function () {
+  document
+    .querySelector(".shop_button")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      gsap.to(window, { duration: 2, scrollTo: "#shop" });
+    });
+
   gsap
     .timeline({
       scrollTrigger: {
@@ -22,8 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
         ease: "linear",
         onUpdate: (self) => {
           // `self` contient des informations sur le ScrollTrigger
-          ScrollTrigger.refresh();
-          console.log("Refresh");
+          // ScrollTrigger.refresh();
+          // console.log("Refresh");
           // console.log("Progression :", self.progress);
           // Vous pouvez aussi accéder à d'autres valeurs comme self.direction
         },
